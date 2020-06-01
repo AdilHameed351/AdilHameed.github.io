@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo, .insideLogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.logo{
+    background: #39b54a;
+    position: relative;
+}
+.insideLogo{
+    width: 100%;
+    height: 100%;
+    background: #97c278bd;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.navLinks ul{
+    list-style-type: none;
+    font-size: 30px;
+    display: flex;
+}
+.navLinks ul li{
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.navLinks ul li:hover{
+    text-decoration: underline;
+}
+.header{
+    background-image: url(images/Srkddlj.jpg);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+.insideHeader{
+    height: 100%;
+    background: rgba(70, 214, 89, 0.415);
+    text-align: center;
+    padding: 50px 0px;  
+}
+.insideHeader p{
+    width: 30%;
+    margin: 50px auto;
+}
+.insideHeader button{
+    padding: 20px 70px;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.product{
+    text-align: center;
+}
+.ourProducts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10%;
+}
+.SEO{
+    width: 25%;
+}
+.divSEO{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background: #39b54a;
+    border-radius: 50%;
+}
+.insideDivSEO{
+    width: 100%;
+    height: 100%;
+    background: url(Images/star1.png);
+    background-size: cover;
+    border-radius: inherit;
+}
+.aboutUs{
+    height: 400px;
+    background: #e3d3d3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.textAboutUs{
+    width: 25%;
+}
+.textAboutUs h1{
+    font-weight: lighter;
+}
+.aboutUsImage{
+    width: 300px;
+}
+.aboutUsImage img{
+    width: 300px;
+    height: 250px;
+}
+.johnDoe{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.johnDoeImage img{
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+.johnDoeText{
+    width: 500px;
+    margin-left: 50px;
+}
+.aboutUsArrows{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: 30%;   
+    cursor: pointer;
+}
+#leftArrow{
+    left: 5%;
+}
+#rightArrow{
+    right: 5%;
+}
+.subscribe{
+    height: 100px;
+    background: #08d877;
+    text-align: center;
+    padding: 25px 0px;
+    box-sizing: border-box;
+}
+.subscribe input{
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: transparent; 
+    outline: none;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+.subscribe button{
+    width: 120px;
+    height: 55px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #08d877;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.subscribe input::placeholder{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 40px;
+}
+@media screen and (max-width: 950px){
+    .nav .logo{
+        display: none;
+    }
+    .navLinks ul{
+        margin: 0px au
+    }
+    .navLinks ul li{
+        margin: 0px 20px;
+        cursor: pointer;
+    }
+}
